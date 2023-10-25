@@ -10,7 +10,6 @@ body{
     padding: 12px;
     text-decoration: none;
     font-size: 18px;
-    line-height: 25px;
     border-radius: 4px;
     margin-top: 50px;
     margin-right: 50px;
@@ -23,7 +22,7 @@ body{
   }
   .header a:hover {
     background-color: #ddd;
-    color: rgb(255, 255, 255);
+    color: rgb(99, 0, 0);
   }
 
   .header-right {
@@ -76,7 +75,6 @@ h1{
   height: 412px;
   left: 200px;
   top: 150px;
-  font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 700;
   font-size: 309.341px;
@@ -390,7 +388,6 @@ form{
 input{
   border: none;
   background-color: transparent;
-  outline: none;
   border-bottom: solid 1px white;
 }
 label{
@@ -551,13 +548,15 @@ label{
 .mikey{
   position: absolute;
   left: 700px;
-  top: 8000px;
+  top: 7950px;
   font-size: 22px;
   color: #FFFFFF;
 }
 .mimi{
   position: absolute;
   left: 650px;
-  top: 8050px;
+  top: 8000px;
+  bottom: 8050px;
   color: #FFFFFF;
 }
+
